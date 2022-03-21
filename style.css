@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#all {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #9600FF, #AEBAF8);
+}
+
+#titulo{
+
+    margin:0 auto;
+    width: 100vh;
+
+    text-align: center;
+    color: #000;
+}
+
+#lista {
+    
+    height: 60vh;
+    width: 94vh;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+#adicionar {
+    margin: 0 auto;
+    
+    height: 10vh;
+    width: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.caixa-texto{
+    height: 30px;
+    width: 220px;
+    padding: 10px;
+    margin-right:10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.botao {
+    height: 52px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(45deg, #0CCDA3, #C1FCD3);
+}
+
+    .botao:hover {
+        background-image: linear-gradient(45deg, #C1FCD3, #0CCDA3);
+    }
+
+.tarefa{
+    display: flex;
+    align-items: baseline;
+    justify-content:flex-start;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #0CCDA3, #C1FCD3);
+}
+
+.tarefa p{
+    margin-left: 10px;
+}
